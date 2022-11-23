@@ -128,27 +128,27 @@ const Home: NextPage = () => {
       <div style={{ backgroundColor: "#1a5339", color: "white", overflow: "hidden", padding: "110px" }}>
         <div style={{ margin: "0 auto", width: "1000px", display: "flex", justifyContent: "center", alignItems: "center" }}>
           <div style={{ margin: "0 10px" }}>
-            <span>이말산</span>
+            <span>莉茉山</span>
             <p>
-              Lorem Ipsum, you need to besure there  anything embarrassing hidden in the middle of text.
+              ソウル特別市恩平区津寛洞に位置する都心の中の山だ。イマル山は朝鮮時代の都城10里の外にある山で、墓が多く、おそらく当時共同墓地だったと推定される。現在は恩平ニュータウンに属し、都心の緑地空間であり、近隣公園の役割を果たしている。
             </p>
           </div>
           <div style={{ margin: "0 10px" }}>
-            <span>한옥박물관</span>
+            <span>恩平歴史韓屋博物館</span>
             <p>
-              Lorem Ipsum, you need to besure there ist anything embarrassing hidden in the middle of text.
+              ソウル特別市恩平区津寛洞にある恩平区公立博物館だ。恩平韓屋村に位置し、恩平区役所が管掌する。2014年に開館した博物館で、ソウル恩平区の歴史と郷土現況などを土台に恩平区地域で発掘された遺跡を展示している。恩平区歴史館では恩平区の誕生背景と恩平ニュータウン開発の背景と恩平区から出土した遺跡と遺物などを展示している。韓屋展示館では韓国家屋の変遷史を紹介し、韓屋を作る過程と方式などを展示し、韓屋資材を通じた体験ができる。
             </p>
           </div>
           <div style={{ margin: "0 10px" }}>
-            <span>한옥마을</span>
+            <span>韓屋村</span>
             <p>
-              Lorem Ipsum, you need to besure there isn anything embarrassing hidden in the middle of text.
+              ソウル特別市恩平区津寛洞に位置する現代式韓屋村である。韓屋村の近くには北漢山と津寬寺がある。北漢山の美しい自然環境と現代式韓屋が調和した恩平区の代表的な名所だ。近くには恩平韓屋村8景があり、見どころを加え、恩平歴史韓屋博物館、ノナドゥリセンター、三人で文学館、金岩美術館など、多様な韓国文化体験施設が位置しており、展示、体験、教育など多様な文化活動が楽しめる。
             </p>
           </div>
           <div style={{ margin: "0 10px" }}>
-            <span>진관사</span>
+            <span>津寬寺</span>
             <p>
-              Lorem Ipsum, you need to besure there anything embarrassing hidden in the middle of text.
+              北漢山(三角山)の西麓にある高麗時代の古刹で、朝鮮時代には漢陽近郊の4大寺院の一つだった。津寛寺から北漢山の頂上方向の東に続いた渓谷を津寛寺渓谷と呼ぶが、岩盤がよく発達している。岩盤は傾斜が急で、小さな滝が渓谷に沿って続く。周辺は北漢山国立公園に指定されている。道峰山、北漢山城、僧伽寺、天竺寺などの観光地がある。
             </p>
           </div>
         </div>
