@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="스토리투어 샘플" />
+    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="스토리투어 샘플">
+      <change afterPath="$PROJECT_DIR$/pages/Membership.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/membership_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668733618264</updated>
       <workItem from="1668733619544" duration="66000" />
-      <workItem from="1669163557567" duration="678000" />
+      <workItem from="1669163557567" duration="4892000" />
     </task>
     <task id="LOCAL-00001" summary="스토리투어 샘플">
       <created>1669166078360</created>
@@ -101,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669166078360</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="스토리투어 샘플">
+      <created>1669166711907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669166711907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

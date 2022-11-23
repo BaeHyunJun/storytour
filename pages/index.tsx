@@ -64,7 +64,7 @@ const Home: NextPage = () => {
             </ul>
           </div>
           <div>
-            <a href={"/"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: 700, background: "#f5343d", padding: "8px 15px", borderRadius: "10px" }}>
+            <a href={"/Membership"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: 700, background: "#f5343d", padding: "8px 15px", borderRadius: "10px" }}>
               予約確認
             </a>
           </div>
