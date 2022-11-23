@@ -124,25 +124,25 @@ const Home: NextPage = () => {
           <div style={{ margin: "0 10px" }}>
             <span>이말산</span>
             <p>
-              Lorem Ipsum, you need to besure there isn't anything embarrassing hidden in the middle of text.
+              Lorem Ipsum, you need to besure there  anything embarrassing hidden in the middle of text.
             </p>
           </div>
           <div style={{ margin: "0 10px" }}>
             <span>한옥박물관</span>
             <p>
-              Lorem Ipsum, you need to besure there isn't anything embarrassing hidden in the middle of text.
+              Lorem Ipsum, you need to besure there ist anything embarrassing hidden in the middle of text.
             </p>
           </div>
           <div style={{ margin: "0 10px" }}>
             <span>한옥마을</span>
             <p>
-              Lorem Ipsum, you need to besure there isn't anything embarrassing hidden in the middle of text.
+              Lorem Ipsum, you need to besure there isn anything embarrassing hidden in the middle of text.
             </p>
           </div>
           <div style={{ margin: "0 10px" }}>
             <span>진관사</span>
             <p>
-              Lorem Ipsum, you need to besure there isn't anything embarrassing hidden in the middle of text.
+              Lorem Ipsum, you need to besure there anything embarrassing hidden in the middle of text.
             </p>
           </div>
         </div>
