@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import Image from "next/image";
 import {Button, Grid, IconButton, MenuItem, TextField, Typography} from "@mui/material";
 import ShareIcon from '@mui/icons-material/Share';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const Membership: NextPage = () => {
 
@@ -258,7 +259,7 @@ const Membership: NextPage = () => {
                 <div style={{ display: "flex", justifyContent: "space-between", marginTop: 30 }}>
                   <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>購入する</Button>
                   <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>買い物かご</Button>
-                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>ええ</Button>
+                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }} startIcon={<FavoriteBorderIcon />}>ええ</Button>
                 </div>
               </div>
             </div>
