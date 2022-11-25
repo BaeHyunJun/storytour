@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="상품 s3 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Products/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Products/[id].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,7 @@
       <workItem from="1669252230571" duration="577000" />
       <workItem from="1669269277906" duration="807000" />
       <workItem from="1669337894674" duration="9354000" />
-      <workItem from="1669353952356" duration="8238000" />
+      <workItem from="1669353952356" duration="8667000" />
     </task>
     <task id="LOCAL-00001" summary="스토리투어 샘플">
       <created>1669166078360</created>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669364856805</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="상품 s3 수정">
+      <created>1669365376245</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669365376245</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

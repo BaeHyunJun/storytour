@@ -123,38 +123,38 @@ const Products: NextPage = () => {
           <div style={{ width: "50%" }}>
             {/* 사진 */}
             <div style={{ position: "relative", border: "1px solid gray", width: 500, height: 500, margin: "0 auto" }}>
-              { feature && <Image src={feature} alt={"상품 메인"} fill/> }
+              { feature && <Image src={feature} alt={"상품 메인"} fill priority/> }
             </div>
 
             {/* 상품 리스트 */}
             <div>
               <ul style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", maxWidth: 500, margin: "30px auto", padding: 0, fontSize: 0, listStyle: "none" }}>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }} onMouseEnter={onChangeFeature}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/main.png"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/main.png"} alt={"상품 이미지1"} fill priority />
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }} onMouseEnter={onChangeFeature}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub1.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub1.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub2.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub2.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub3.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub3.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub4.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub4.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub5.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub5.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub6.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub6.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub7.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub7.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub8.jpg"} alt={"상품 이미지1"} fill />
+                  <Image src={"https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/sub8.jpg"} alt={"상품 이미지1"} fill priority/>
                 </li>
               </ul>
             </div>
