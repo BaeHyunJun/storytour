@@ -65,7 +65,7 @@ const Company: NextPage = () => {
   return (
     <div style={{ minWidth: "1200px" }}>
       <Head>
-        <title>ストーリーツアー - 会員加入</title>
+        <title>ストーリーツアー - 会社紹介</title>
 
         <meta property="og:url" content="https://www.sanppo.co.kr/" />
         <meta property="og:title" content="ストーリーツアー" />
@@ -91,7 +91,7 @@ const Company: NextPage = () => {
           <div>
             <ul style={{ margin: 0, padding: 0 }}>
               <li style={{ display: "inline-block", padding: "0 20px" }}>
-                <a href={"/Company"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
+                <a href={"/Company"} target={"_parent"} style={{ color: "#f5343d", fontSize: "15px", fontWeight: "700" }}>
                   会社紹介
                 </a>
               </li>
@@ -101,7 +101,7 @@ const Company: NextPage = () => {
                 </a>
               </li>
               <li style={{ display: "inline-block", padding: "0 20px" }}>
-                <a href={"/"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
+                <a href={"/Gallery"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
                   ギャラリー
                 </a>
               </li>

@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                 </a>
               </li>
               <li style={{ display: "inline-block", padding: "0 20px" }}>
-                <a href={"/"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
+                <a href={"/Gallery"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
                   ギャラリー
                 </a>
               </li>
