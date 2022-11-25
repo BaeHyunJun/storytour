@@ -6,7 +6,7 @@ import {Button, Grid, IconButton, MenuItem, TextField, Typography} from "@mui/ma
 import ShareIcon from '@mui/icons-material/Share';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
-const Membership: NextPage = () => {
+const Products: NextPage = () => {
 
   const [fixHeader, setFixHeader] = useState(false);
 
@@ -24,6 +24,7 @@ const Membership: NextPage = () => {
     const month = now.getMonth() + 1;
 
     setStartDate(new Date(year, month, 1))
+    setFeature("/imalsan/main.png");
 
     window.addEventListener("scroll", onScroll);
     return () => {
@@ -55,6 +56,12 @@ const Membership: NextPage = () => {
   //   return result;
   // }
 
+  const [feature, setFeature] = useState<string>();
+
+  const onChangeFeature = (e: any) => {
+    console.log(e.target);
+  }
+
   return (
     <div style={{ minWidth: "1200px" }}>
       <Head>
@@ -84,7 +91,7 @@ const Membership: NextPage = () => {
           <div>
             <ul style={{ margin: 0, padding: 0 }}>
               <li style={{ display: "inline-block", padding: "0 20px" }}>
-                <a href={"/"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
+                <a href={"/Company"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
                   会社紹介
                 </a>
               </li>
@@ -116,13 +123,16 @@ const Membership: NextPage = () => {
           <div style={{ width: "50%" }}>
             {/* 사진 */}
             <div style={{ position: "relative", border: "1px solid gray", width: 500, height: 500, margin: "0 auto" }}>
-              <Image src={"/imalsan/main.png"} alt={"상품 메인"} fill />
+              { feature && <Image src={feature} alt={"상품 메인"} fill/> }
             </div>
 
             {/* 상품 리스트 */}
             <div>
               <ul style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", maxWidth: 500, margin: "30px auto", padding: 0, fontSize: 0, listStyle: "none" }}>
-                <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
+                <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }} onMouseEnter={onChangeFeature}>
+                  <Image src={"/imalsan/main.png"} alt={"상품 이미지1"} fill />
+                </li>
+                <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }} onMouseEnter={onChangeFeature}>
                   <Image src={"/imalsan/sub1.jpg"} alt={"상품 이미지1"} fill />
                 </li>
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
@@ -146,9 +156,9 @@ const Membership: NextPage = () => {
                 <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
                   <Image src={"/imalsan/sub8.jpg"} alt={"상품 이미지1"} fill />
                 </li>
-                <li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>
-                  <Image src={"/imalsan/sub9.jpg"} alt={"상품 이미지1"} fill />
-                </li>
+                {/*<li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>*/}
+                {/*  <Image src={"/imalsan/sub9.jpg"} alt={"상품 이미지1"} fill />*/}
+                {/*</li>*/}
                 {/*<li style={{ position: "relative", border: "1px solid gray", width: 60, height: 60, marginBottom: 10 }}>*/}
                 {/*  <Image src={"/imalsan/sub10.jpg"} alt={"상품 이미지1"} fill />*/}
                 {/*</li>*/}
@@ -290,4 +300,4 @@ const Membership: NextPage = () => {
   )
 }
 
-export default Membership
+export default Products;

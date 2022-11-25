@@ -48,7 +48,7 @@ const Home: NextPage = () => {
           <div>
             <ul style={{ margin: 0, padding: 0 }}>
               <li style={{ display: "inline-block", padding: "0 20px" }}>
-                <a href={"/"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
+                <a href={"/Company"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
                   会社紹介
                 </a>
               </li>

@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="내용 수정">
-      <change afterPath="$PROJECT_DIR$/pages/Products/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/test.jpeg" afterDir="false" />
+    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="아이콘 추카">
+      <change afterPath="$PROJECT_DIR$/pages/Company/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/info.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/info1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/info2.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Membership.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Membership.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Products/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Products/[id].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +48,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/imalsan" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/imalsan" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm lint">
@@ -117,7 +106,8 @@
       <workItem from="1669163557567" duration="6805000" />
       <workItem from="1669252230571" duration="577000" />
       <workItem from="1669269277906" duration="807000" />
-      <workItem from="1669337894674" duration="8100000" />
+      <workItem from="1669337894674" duration="9354000" />
+      <workItem from="1669353952356" duration="3302000" />
     </task>
     <task id="LOCAL-00001" summary="스토리투어 샘플">
       <created>1669166078360</created>
@@ -168,7 +158,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669269582843</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="이말산 상품 테스트">
+      <created>1669349070517</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669349070517</updated>
+    </task>
+    <task id="LOCAL-00009" summary="이말산 이미지수정">
+      <created>1669351089140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669351089140</updated>
+    </task>
+    <task id="LOCAL-00010" summary="상품 데이터 언어 수정">
+      <created>1669357131132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669357131132</updated>
+    </task>
+    <task id="LOCAL-00011" summary="아이콘 추카">
+      <created>1669357196004</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669357196004</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +208,10 @@
     <MESSAGE value="스토리투어 회원가입 페이지 추가" />
     <MESSAGE value="meta, icon 업데이트" />
     <MESSAGE value="내용 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="내용 수정" />
+    <MESSAGE value="이말산 상품 테스트" />
+    <MESSAGE value="이말산 이미지수정" />
+    <MESSAGE value="상품 데이터 언어 수정" />
+    <MESSAGE value="아이콘 추카" />
+    <option name="LAST_COMMIT_MESSAGE" value="아이콘 추카" />
   </component>
 </project>
