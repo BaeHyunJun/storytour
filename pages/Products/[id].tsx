@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from "next/head";
 import {useEffect, useState} from "react";
 import Image from "next/image";
-import {Button, IconButton, MenuItem, TextField, Typography} from "@mui/material";
+import {Button, Grid, IconButton, MenuItem, TextField, Typography} from "@mui/material";
 import ShareIcon from '@mui/icons-material/Share';
 
 const Membership: NextPage = () => {
@@ -170,15 +170,56 @@ const Membership: NextPage = () => {
                   </Button>
 
                   <p style={{ fontSize: 24, margin: 0, marginTop: 15, fontWeight: "normal", color: "gray", textAlign: "right" }}>
-                    90,000 원
+                    9,000 円
                   </p>
                 </div>
               </div>
               <hr />
               <div>
-                <p>삼각산 비봉능선의 향로봉에서 서북쪽으로 뻗은 산줄기가 기자촌을 지나 구파발역 북쪽에서 솟아오른 산봉우리</p>
+                <Grid container sx={{ my: 2 }}>
+                  <Grid item xs={3.2}>
+                    コース注意事項
+                  </Grid>
+                  <Grid item xs={8.8}>
+                    申込みは2名様から可能。集まった場合に催行されます。
+                  </Grid>
+                </Grid>
 
-                <p>#매일출발 #이말산 #트레킹</p>
+                <Grid container sx={{ my: 2 }}>
+                  <Grid item xs={3.2}>
+                    利用可能日
+                  </Grid>
+                  <Grid item xs={8.8}>
+                    毎日
+                  </Grid>
+                </Grid>
+
+                <Grid container sx={{ my: 2 }}>
+                  <Grid item xs={3.2}>
+                    時間
+                  </Grid>
+                  <Grid item xs={8.8}>
+                    09:00 ~13:00（約4時間）
+                  </Grid>
+                </Grid>
+
+                <Grid container sx={{ my: 2 }}>
+                  <Grid item xs={3.2}>
+                    催行人数
+                  </Grid>
+                  <Grid item xs={8.8}>
+                    ２名様以上
+                  </Grid>
+                </Grid>
+
+                <Grid container sx={{ my: 2 }}>
+                  <Grid item xs={3.2}>
+                    料金に含まれるもの
+                  </Grid>
+                  <Grid item xs={8.8}>
+                    昼食, 入場料、駐車料金、日本語ガイド
+                  </Grid>
+                </Grid>
               </div>
               <div
                 style={{
@@ -191,33 +232,33 @@ const Membership: NextPage = () => {
                 }}
               >
                 <Typography sx={{ mb: 2 }}>
-                  출발일
+                  出発日
                 </Typography>
 
                 <TextField
-                  label={"출발일 (필수)"}
+                  label={"出発日 (必須)"}
                   select
                   size={"small"}
                   fullWidth
                 >
-                  <MenuItem>12월 20일</MenuItem>
-                  <MenuItem>12월 21일</MenuItem>
-                  <MenuItem>12월 22일</MenuItem>
-                  <MenuItem>12월 23일</MenuItem>
-                  <MenuItem>12월 24일</MenuItem>
-                  <MenuItem>12월 25일</MenuItem>
-                  <MenuItem>12월 26일</MenuItem>
-                  <MenuItem>12월 27일</MenuItem>
-                  <MenuItem>12월 28일</MenuItem>
-                  <MenuItem>12월 29일</MenuItem>
-                  <MenuItem>12월 30일</MenuItem>
-                  <MenuItem>12월 31일</MenuItem>
+                  <MenuItem>12月 20日</MenuItem>
+                  <MenuItem>12月 21日</MenuItem>
+                  <MenuItem>12月 22日</MenuItem>
+                  <MenuItem>12月 23日</MenuItem>
+                  <MenuItem>12月 24日</MenuItem>
+                  <MenuItem>12月 25日</MenuItem>
+                  <MenuItem>12月 26日</MenuItem>
+                  <MenuItem>12月 27日</MenuItem>
+                  <MenuItem>12月 28日</MenuItem>
+                  <MenuItem>12月 29日</MenuItem>
+                  <MenuItem>12月 30日</MenuItem>
+                  <MenuItem>12月 31日</MenuItem>
                 </TextField>
 
                 <div style={{ display: "flex", justifyContent: "space-between", marginTop: 30 }}>
-                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>구매하기</Button>
-                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>장바구니</Button>
-                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>좋아요</Button>
+                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>購入する</Button>
+                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>買い物かご</Button>
+                  <Button variant={"outlined"} size={"large"} sx={{ width: "30%" }}>ええ</Button>
                 </div>
               </div>
             </div>
