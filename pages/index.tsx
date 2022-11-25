@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                 </a>
               </li>
               <li style={{ display: "inline-block", padding: "0 20px" }}>
-                <a href={"/"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
+                <a href={"/Products/Imalsan"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: "700" }}>
                   プログラム
                 </a>
               </li>
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <a href={"/Membership"} target={"_parent"} style={{ color: "white", fontSize: "15px", fontWeight: 700, background: "#f5343d", padding: "8px 15px", borderRadius: "10px" }}>
-              予約確認
+              会員加入
             </a>
           </div>
         </header>

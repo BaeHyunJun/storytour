@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="스토리투어 샘플">
-      <change afterPath="$PROJECT_DIR$/pages/Membership.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/membership_bg.jpg" afterDir="false" />
+    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="내용 수정">
+      <change afterPath="$PROJECT_DIR$/pages/Products/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/sub9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/imalsan/test.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Membership.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Membership.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -28,22 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Volumes/D/work/storytour/site",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Volumes/D/work/storytour/site/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/D/work/storytour/site&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Volumes/D/work/storytour/site/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/imalsan" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -98,7 +114,10 @@
       <option name="presentableId" value="Default" />
       <updated>1668733618264</updated>
       <workItem from="1668733619544" duration="66000" />
-      <workItem from="1669163557567" duration="4892000" />
+      <workItem from="1669163557567" duration="6805000" />
+      <workItem from="1669252230571" duration="577000" />
+      <workItem from="1669269277906" duration="807000" />
+      <workItem from="1669337894674" duration="8100000" />
     </task>
     <task id="LOCAL-00001" summary="스토리투어 샘플">
       <created>1669166078360</created>
@@ -114,7 +133,42 @@
       <option name="project" value="LOCAL" />
       <updated>1669166711907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="스토리투어 회원가입 페이지 추가">
+      <created>1669175033844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669175033844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="meta, icon 업데이트">
+      <created>1669185517783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669185517783</updated>
+    </task>
+    <task id="LOCAL-00005" summary="내용 수정">
+      <created>1669185766513</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669185766513</updated>
+    </task>
+    <task id="LOCAL-00006" summary="내용 수정">
+      <created>1669269518635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669269518635</updated>
+    </task>
+    <task id="LOCAL-00007" summary="내용 수정">
+      <created>1669269582843</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669269582843</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +187,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="스토리투어 샘플" />
-    <option name="LAST_COMMIT_MESSAGE" value="스토리투어 샘플" />
+    <MESSAGE value="스토리투어 회원가입 페이지 추가" />
+    <MESSAGE value="meta, icon 업데이트" />
+    <MESSAGE value="내용 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="내용 수정" />
   </component>
 </project>
