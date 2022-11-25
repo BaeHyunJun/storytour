@@ -227,8 +227,8 @@ const Membership: NextPage = () => {
         <hr />
 
         <div style={{ display: "flex", maxWidth: 800, minHeight: 500, margin: "0 auto", padding: 50 }}>
-          <div style={{ position: "relative", width: "100%", height: "100%", minHeight: 850 }}>
-            <Image src={"/imalsan/test.jpeg"} alt={"상세 페이지"} fill />
+          <div style={{ position: "relative", border: "1px solid gray", width: "100%", height: "100%", minHeight: 850 }}>
+            {/*<Image src={"/imalsan/test.jpeg"} alt={"상세 페이지"} fill />*/}
           </div>
         </div>
 
