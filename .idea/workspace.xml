@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="회사소개 추가">
-      <change afterPath="$PROJECT_DIR$/pages/Gallery/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imalsan/sub28.jpg" afterDir="false" />
+    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="파비콘 업데이트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Company/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Company/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Products/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Products/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Gallery/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Gallery/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/sub9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imalsan/test.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
       <workItem from="1669252230571" duration="577000" />
       <workItem from="1669269277906" duration="807000" />
       <workItem from="1669337894674" duration="9354000" />
-      <workItem from="1669353952356" duration="4827000" />
+      <workItem from="1669353952356" duration="6534000" />
     </task>
     <task id="LOCAL-00001" summary="스토리투어 샘플">
       <created>1669166078360</created>
@@ -211,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669359130534</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="갤러리 업데이트">
+      <created>1669361854359</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669361854359</updated>
+    </task>
+    <task id="LOCAL-00014" summary="파비콘 업데이트">
+      <created>1669361966553</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669361966553</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +252,8 @@
     <MESSAGE value="상품 데이터 언어 수정" />
     <MESSAGE value="아이콘 추카" />
     <MESSAGE value="회사소개 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="회사소개 추가" />
+    <MESSAGE value="갤러리 업데이트" />
+    <MESSAGE value="파비콘 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="파비콘 업데이트" />
   </component>
 </project>
