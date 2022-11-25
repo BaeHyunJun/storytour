@@ -24,7 +24,7 @@ const Products: NextPage = () => {
     const month = now.getMonth() + 1;
 
     setStartDate(new Date(year, month, 1))
-    setFeature("/imalsan/main.png");
+    setFeature("https://s3storytour.s3.ap-northeast-2.amazonaws.com/gallery/main.png");
 
     window.addEventListener("scroll", onScroll);
     return () => {

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="s3 이미지 로드">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="816d30cf-fea0-44bf-8ebd-575f59423390" name="Changes" comment="상품 s3 수정">
       <change beforePath="$PROJECT_DIR$/pages/Products/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Products/[id].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <workItem from="1669252230571" duration="577000" />
       <workItem from="1669269277906" duration="807000" />
       <workItem from="1669337894674" duration="9354000" />
-      <workItem from="1669353952356" duration="7594000" />
+      <workItem from="1669353952356" duration="8238000" />
     </task>
     <task id="LOCAL-00001" summary="스토리투어 샘플">
       <created>1669166078360</created>
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669363846254</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="상품 s3 수정">
+      <created>1669364856805</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669364856805</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +245,7 @@
     <MESSAGE value="갤러리 업데이트" />
     <MESSAGE value="파비콘 업데이트" />
     <MESSAGE value="s3 이미지 로드" />
-    <option name="LAST_COMMIT_MESSAGE" value="s3 이미지 로드" />
+    <MESSAGE value="상품 s3 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="상품 s3 수정" />
   </component>
 </project>
